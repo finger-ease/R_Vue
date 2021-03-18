@@ -10,16 +10,25 @@
   </head>
   <body>
     <div id="app">
-      <div class="rv-header">
-        <div class="rv-header__container">
-          <div class="rv-header__logo">R_Vue</div>
-          <div class="rv-header__cart">Cart({{ cart }})</div>
-        </div>
+      <div>
+        <header class="rv-header">
+          <div class="rv-header__container">
+            <div class="rv-header__logo">R_Vue</div>
+            <div class="rv-header__cart">Cart({{ cart }})</div>
+          </div>
+        </header>
+        <main class="">
+          <product-display></product-display>
+        </main>
       </div>
     </div>
 
-    <!-- Import Js -->
+    <!-- Import App -->
     <script src="./main.js"></script>
+
+    <!-- Import Component -->
+    <script src="./components/ProductDisplay.js"></script>
+
     <script>
       const mountedApp = app.mount("#app");
     </script>
