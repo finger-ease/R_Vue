@@ -1,0 +1,5 @@
+.DS_Store
+
+/src/assets/*.css*
+/src/assets/modules/component/*.css*
+/src/assets/modules/foundation/*.css*
